@@ -43,7 +43,7 @@
         // Defer to a file for most things.
         "File": "arrow.xml",
         // Declare forces and moments
-        "Force": [
+        "Components": [
             "cap",
             "body",
             "fins",
@@ -65,6 +65,8 @@
         // List of data book components
         "Components": [
             "arrow_no_base",
+            "arrow_total",
+            "fins",
             "ll_arrow"],
         // Location of data book
         "Folder": "data/",
@@ -106,7 +108,7 @@
                 "Alignment": "center",
                 "Subfigures": [
                     "arrow_CA",  "arrow_CY",  "arrow_CN",
-                    "arrow_CLL", "arrow_CLN", "arrow_CLM",
+                    "arrow_CLN", "arrow_CLM",
                     "L1"
                 ]
             }
